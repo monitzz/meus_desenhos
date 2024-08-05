@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #620b13;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #f9a8b4;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+header li {
+  display: inline;
+  margin-left: 1em;
+}
+
+header li a {
+  text-decoration: none;
+  font-size: 26px;
+  font-family: Merienda, cursive;
+}
+
+header,
+main,
+footer {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  font-family: Merienda, cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.profile-picture {
+  height: 250px;
+  border-radius: 50%;
+  margin: 5em;
+}
+
+p {
+  font-size: 24px;
+}
+
+main {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main h2 {
+  margin-bottom: 1em;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 85%;
+  margin-bottom: 2em;
+}
+
+section:first-child {
+  align-items: center;
+}
+
+#drawings,
+#contact,
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.images img {
+  height: 300px;
+}
+
+form * {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  border: solid #620b13 1px;
+  border-radius: 8px;
+}
+
+form input,
+form textarea,
+form button {
+  padding: 8px;
+}
+
+textarea {
+  resize: none;
+  height: 180px;
+}
+
+input:focus,
+textarea:focus {
+  outline-color: #620b13; 
+}
+
+button {
+  background-color: #620b13;
+  color: #efefef;
+}
+
+footer {
+  text-align: center;
+  padding: 2em;
+  background-color: #f9a8b4;
+}
